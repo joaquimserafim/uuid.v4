@@ -18,7 +18,7 @@ test('check if is a valid uuid v4', (assert) => {
   assert.end()
 })
 
-test('test uniqueness of the uuid.v4 with `100000` entries',
+test('test the uniqueness of uuid.v4 with `1 000 000` entries',
   {timeout: 15000},
   (assert) => {
     assert.plan(1)

@@ -19,14 +19,14 @@ function uuidV4 () {
   return bytes2Uuid(buf)
 }
 
-const byte2Hex = []
+const byte2hex = []
 
 for (let i = 0; i < 256; ++i) {
-  byte2Hex[i] = (i + 0x100).toString(16).substr(1)
+  byte2hex[i] = (i + 0x100).toString(16).substr(1)
 }
 
 function bytes2Uuid (buf) {
-  const b = byte2Hex
+  let b = byte2hex
 
   return b[buf[0]] +
     b[buf[1]] +

@@ -1,6 +1,6 @@
 {
   "name": "uuid.v4",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate a v4 UUID",
   "main": "index.js",
   "files": [

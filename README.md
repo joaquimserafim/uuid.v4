@@ -11,12 +11,15 @@ generate a v4 UUID
 
 
 ### api
-
+`const uuidV4 = require('uuid.v4')`
 
 ### example
 
 ```js
+const uuidV4 = require('uuid.v4')
 
+uuidV4()
+// should return a valid v4 UUID
 ```
 
 
